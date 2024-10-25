@@ -1,0 +1,74 @@
+.dashboard {
+    height: 100vh;
+    background-image: url('./assets/bacl.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.maim-page {
+    position: fixed;
+    top: 10px;
+        font-weight: bold;
+            text-transform: uppercase;
+            font-size: 25px;
+            color: rgb(232, 230, 228);
+
+}
+.weather-card {
+background-color: rgba(255, 255, 255, 0.867);
+    border-radius: 35px;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 40px 8px 40px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    margin-right: 60px;
+        /* Shadow effect */
+        
+            /* Чорний фон з 50% прозорості */
+}
+
+.weather-temp {
+    color: #1C2331;
+    margin: 10px 0;
+}
+
+.weather-info {
+    color: #868B94;
+}
+
+.weather-icon {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.weather-blocks {
+    display: flex;
+    flex-wrap: wrap;
+
+    /* Allow wrapping to the next line */
+    justify-content: flex-end;
+    /* Align items to the right */
+    gap: 15px;
+    /* Add some space between blocks */
+  
+}
+
+.weather-block {
+background-color: rgba(255, 255, 255, 0.732);
+    border-radius: 10px;
+    padding: 15px;
+    width: 100px;
+    /* Width can be adjusted based on your layout */
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    height: 300px;
+}
+
+.weather-block-icon {
+    width: 50px;
+}
